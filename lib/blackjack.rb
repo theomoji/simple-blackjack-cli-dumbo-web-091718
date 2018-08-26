@@ -27,7 +27,7 @@ def initial_round
   hand << deal_card
   hand << deal_card
   sum_of_cards = hand[0] + hand[1]
-  display_card_total(sum_of_cards)
+  card_total = display_card_total(sum_of_cards)
   return sum_of_cards
 end
 
